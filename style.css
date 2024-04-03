@@ -9,7 +9,10 @@
     --roboto: 'Roboto', sans-serif;
     --roboto-mono: 'Roboto Mono', monospace;
 }
-
+    
+*{
+    font-weight: 400;
+}
 body{
     color: var(--branco);
     background-color: var(--cor-de-fundo);
@@ -23,4 +26,9 @@ body{
 
 .titulo-secundario{
     font-size: 24px;
+}
+
+.titulo-secundario{
+    font-size: 24px;
+    font-weight: 400;
 }
